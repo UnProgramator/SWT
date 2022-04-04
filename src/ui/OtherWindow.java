@@ -22,7 +22,7 @@ public class OtherWindow extends Composite {
 		btnClose.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				
+				MainMenu.getInstance().changeLayout(1);
 			}
 		});
 		btnClose.setBounds(303, 196, 75, 25);
